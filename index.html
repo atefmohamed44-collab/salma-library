@@ -3,71 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>مكتبة سلمي الجمالية</title>
+  <title>مكتبة سلمى الجمالية - سوق السمك</title>
   <style>
     body {
       font-family: 'Cairo', sans-serif;
-      background-color: #fafafa;
-      color: #333;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #222;
       text-align: center;
-      padding: 20px;
-      direction: rtl;
     }
     header {
-      background-color: #4CAF50;
+      background-color: #00897b;
       color: white;
-      padding: 20px;
-      border-radius: 15px;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2em;
-    }
-    p {
-      font-size: 1.2em;
-    }
-    .map-button, .social-button {
-      display: inline-block;
-      color: white;
-      padding: 10px 20px;
-      margin: 10px;
-      border-radius: 10px;
-      text-decoration: none;
+      padding: 20px 10px;
+      font-size: 22px;
       font-weight: bold;
-      transition: background 0.3s;
     }
-    .map-button { background-color: #007BFF; }
-    .map-button:hover { background-color: #0056b3; }
-    .facebook-button { background-color: #4267B2; }
-    .facebook-button:hover { background-color: #2d4f91; }
-    .whatsapp-button { background-color: #25D366; }
-    .whatsapp-button:hover { background-color: #1da851; }
+    .intro {
+      padding: 25px;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .contact {
+      background-color: #e0f2f1;
+      padding: 25px;
+      font-size: 18px;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: white;
+      background-color: #00796b;
+      border-radius: 8px;
+    }
     footer {
-      margin-top: 30px;
-      font-size: 0.9em;
-      color: #777;
+      background-color: #004d40;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>مكتبة سلمي الجمالية</h1>
-    <p>كل ما تحتاجه من كتب وأدوات مكتبية وتعليمية</p>
+    مكتبة سلمى الجمالية - سوق السمك
   </header>
 
-  <main>
-    <p>نحن في مكتبة سلمي نقدم أحدث المستلزمات الدراسية والكتب بأسعار مناسبة.</p>
+  <section class="intro">
+    <p>
+      مكتبة سلمى تقدم كل ما يحتاجه الطالب من كتب دراسية، أدوات مكتبية، شنط، وخدمات طباعة وتصوير — بأسعار مناسبة للجميع.
+    </p>
+  </section>
 
-    <a class="map-button" href="https://www.google.com/maps/place/%D9%85%D9%83%D8%AA%D8%A8%D8%A9+%D8%B3%D9%84%D9%85%D9%8A+%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%84%D9%8A%D8%A9%E2%80%AD/@31.1820018,31.8688951,17z/data=!4m14!1m7!3m6!1s0x14f9c5e9f513b61d:0xb6c116086896730b!2z2YXZg9iq2KjYqSDYs9mE2YXZiiDYp9mE2KzZhdin2YTZitip!8m2!3d31.1819972!4d31.8663202!16s%2Fg%2F11tnbmqcl_!3m5!1s0x14f9c5e9f513b61d:0xb6c116086896730b!8m2!3d31.1819972!4d31.8663202!16s%2Fg%2F11tnbmqcl_?entry=ttu" target="_blank">📍 الموقع على الخريطة</a>
+  <section class="gallery">
+    <img src="afb362e6-b2dc-4cda-8f12-28635ca55b56.jpg" alt="واجهة مكتبة سلمى">
+    <img src="https://via.placeholder.com/200?text=كتب" alt="كتب">
+    <img src="https://via.placeholder.com/200?text=أدوات+مكتبية" alt="أدوات مكتبية">
+    <img src="https://via.placeholder.com/200?text=شنط+مدرسية" alt="شنط مدرسية">
+  </section>
 
-    <div>
-      <a class="social-button facebook-button" href="https://www.facebook.com/Inventions2016" target="_blank">🔗 صفحتنا على فيسبوك</a>
-      <a class="social-button whatsapp-button" href="https://wa.me/201000601125" target="_blank">💬 تواصل عبر واتساب</a>
-    </div>
-  </main>
+  <section class="contact">
+    <p>📞 للتواصل: <strong>01000601125</strong></p>
+    <a href="https://www.facebook.com/Inventions2016" target="_blank">صفحتنا على فيسبوك</a>
+    <a href="https://wa.me/201000601125" target="_blank">راسلنا على واتساب</a>
+  </section>
 
   <footer>
-    <p>© 2025 مكتبة سلمي - الجمالية، الدقهلية</p>
+    © 2025 مكتبة سلمى - جميع الحقوق محفوظة.
   </footer>
+
 </body>
 </html>
